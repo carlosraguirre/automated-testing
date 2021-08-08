@@ -60,8 +60,8 @@ RSpec.describe Calculator do
   describe '#divide' do
     it 'should return the quotient of two numbers' do
       calculator = Calculator.new
-      result = calculator.divide(8, 4)
-      expect(result).to eq(2)
+      # result = calculator.divide(8, 4)
+      expect(calculator.divide(50, 2)).to eq(25)
     end
   end
 end
